@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Product Landing Page</title>
+</head>
+
+<body>
+  <!-- Nav -->
+<header class="header" id="header">
+    <img src="https://i.imgur.com/l7LLQNi.png" id="header-img">
+    <nav class="nav" id="nav-bar">
+      <a href="#home" class="nav-link"><button class="home-btn btn">Home</button></a>
+      <a href="#info" class='nav-link'><button class="btn price-btn">Pricing</button></a>
+      <a href="#contact" class="nav-link"><button class="btn contact-btn">Contact</button></a>
+    </nav>
+</header>
+<main id="main">
+<!-- Home -->
+<section class="home" id="home">
+  <h1>JPDesign</h1>
+  <!-- JPDesign description -->
+  <p id="desc">The world's premier web design brand. Led by Jacob Pieczynski, JPDesign can cater to a client's every need in a time quicker than all competitors. Cheaper than all others, JPDesign sets the bar low in price yet high in quality. A young brand, JPDesign was started in 2018 by a young programmer who wanted to make the world a better place. With several projects under his belt, Jacob Pieczynski leads the brand with professionalism and efficiency.</p>
+</section>
+<!-- Info -->
+<section class="info" id="info">
+  <h2 id="info">Pricing</h2>
+  <div class="row">
+    <!-- Small Site -->
+    <article class="one small">
+      <h2 class="h2 sm">Small Site</h2>
+      <ul>
+        <li>1 page</li>
+        <li>1 day</li>
+        <li>1year hosting - not included</li>
+      </ul>
+      <p id="price">USD $150</p>
+    </article>
+    <!-- Medium Site -->
+    <article class="two medium">
+      <h2 class="h2 med">Medium Site</h2>
+      <ul>
+        <li>3 pages</li>
+        <li>3 day</li>
+        <li>6 months hosting - included</li>
+      </ul>
+      <p id="price">USD $275</p>
+    </article>
+    <!-- Large Site -->
+    <article class="three large">
+      <h2 class="h2 lg">Large Site</h2>
+      <ul>
+        <li>4+ pages</li>
+        <li>5 days</li>
+        <li>1 year hosting - included</li>
+      </ul>
+      <p id="price">USD $400</p>
+    </article>
+  </div>
+  <!-- Video-->
+  <article class="vid">
+    <iframe src="https://www.youtube.com/embed/ZD5LC6OxxzU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen controls id="video"></iframe>
+  </article>
+</section>
+<!-- Contact -->
+  <h2 id="contact">Contact</h2>
+<section class="contact" id="contact">
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+   <label name="name">Name:</label><br>
+   <input type="text" class="name" placeholder="Name" name="name">
+   <label name="email">Email:</label><br>
+    <input type="email" class="name" id="email" required placeholder="Email" name="email">
+   <input type="submit" id="submit" placeholder="Submit">
+  </form>
+</section>
+</main>
+<!-- Footer -->
+<footer id="footer">
+  <p id="copyright">&copy 2018 JPDesign</p>
+</footer>
+</body>
+</html>
