@@ -1,0 +1,126 @@
+/* Whole Page */
+body {
+  margin: 0;
+  background-color: #E5EBEA;
+  color: #747572;
+}
+
+main {
+  margin-top: 7%;
+  text-align: center;
+}
+
+#contact, #info {
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+h1, h2, label {
+  font-family: 'Cabin', sans-serif;
+}
+
+p, button, a {
+  font-family: 'Old Standard TT', serif;
+}
+
+/* Nav */
+#header-img {
+  width: 10%;
+  height: 10%;
+  display: block;
+  float: left;
+  margin-left: 3%;
+}
+
+.btn {
+  display: block;
+  float: right;
+  height: 8vh;
+  width: 6vw;
+  background-color: #E5EBEA;
+  border: solid #747572 1px;
+  border-radius: 5%;
+  margin: 1.5% 1% 1.5% 1%;
+  cursor: pointer;
+}
+
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: solid 1px #747572;
+  background-color: #E5EBEA;
+}
+
+@media screen and (max-width: 600px) {
+  .row article {
+    display: block;
+  }
+} 
+
+/* Description */
+h1 {
+  font-size: 30px;
+  text-decoration: underline;
+  margin-top: 1.5%;
+}
+
+#desc {
+  width: 40vw;
+  font-size: 22px;
+  margin: auto;
+}
+
+/* Pricing */
+.row article {
+  width: 30vw;
+  border: solid 3px #747572;
+  margin-top: 3%;
+  display: inline-block;
+}
+
+ul {
+  text-align: left;
+}
+
+#video {
+  width: 60vw;
+  height: 60vh;
+  margin-top: 3%;
+}
+
+/* Contact */
+label {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.name, .email {
+  height: 7vh;
+  width: 20vw;
+  text-align: left;
+  display: flex;
+  margin: auto;
+}
+
+#submit {
+  width: 8vw;
+  height: 8vh;
+  background-color: #E5EBEA;
+  border: solid 1px #747572;
+  margin-bottom: 2.5%;
+  margin-top: 2.5%;
+}
+
+#contact {
+  margin-top: 2%;
+}
+/* Footer */
+footer {
+  border-top: solid 1px #747572;
+}
+
+#copyright {
+  text-align: left;
+}
